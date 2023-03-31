@@ -13,8 +13,6 @@ body {
 }
 body .myform {
   position: relative;
-  top: 25%;
-  left: 25%;
   border-radius: 30px;
   padding: 10px;
   width: 300px;
