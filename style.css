@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+body .myform {
+  position: relative;
+  top: 25%;
+  left: 25%;
+  border-radius: 30px;
+  padding: 10px;
+  width: 300px;
+  height: 500px;
+  box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25), 10px 10px 70px rgba(0, 0, 0, 0.25), inset 5px 5px 10px rgba(0, 0, 0, 0.5), inset 5px 5px 20px rgba(255, 255, 255, 0.2), inset -5px -5px 15px rgba(0, 0, 0, 0.75);
+}
+body .myform form {
+  position: relative;
+  width: 100%;
+  padding-left: 30px;
+}
+body .myform form h3 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  font-weight: 600;
+  color: white;
+}
+body .myform form .form-data {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+}
+body .myform form .form-data label {
+  display: inline-block;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-size: 0.75em;
+  border-left: 4px solid white;
+  color: white;
+  font-size: 0.75em;
+  padding-left: 4px;
+  line-height: 1em;
+}
+body .myform form .form-data .inputs {
+  display: flex;
+}
+body .myform form .form-data .inputs .icon {
+  position: relative;
+  background-color: #ff2c74;
+  min-width: 40px;
+  height: 40px;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25), inset 2px 2px 5px rgba(255, 255, 255, 0.25), inset -3px -3px 5px rgba(0, 0, 0, 0.5);
+}
+body .myform form .form-data .inputs i {
+  font-size: 10px;
+}
+body .myform form .form-data input {
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25), inset 2px 2px 5px rgba(0, 0, 0, 0.35), inset -3px -3px 5px rgba(0, 0, 0, 0.5);
+}
+body .myform form .form-data input[type=submit] {
+  background-color: #1f83f2;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25), inset 2px 2px 5px rgba(255, 255, 255, 0.25), inset -3px -3px 5px rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 2px;
+  width: 100%;
+  height: 40px;
+}
+body .myform form span {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 0.85em;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+body .myform form a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 0.85em;
+}/*# sourceMappingURL=style.css.map */
